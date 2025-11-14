@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <header>
+    <h1>My Projects</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <p>Here are a few of my favorite projects.</p>
+    
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <img src="images/blackjackgame.png" alt="Blackjack Game Screenshot" />
+          <h3>Card Game Application</h3>
+          <p>A console-based blackjack game written in Java where users can draw cards and compete against a computer.</p>
+        </div>
+    
+        
+        <div class="project-card">
+          <img src="images/pokemoncopy.png" alt="Pokemon Game Clone Screenshot" />
+          <h3>Pokémon FireRed Clone</h3>
+          <p>A game recreation made using Java showcasing map editing and sprite design in a nostalgic environment.</p>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  <footer>
+    <p>&copy; 2025 Marcus Ethan Roca</p>
+  </footer>
+  <script>
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 100 },
+        size: { value: 2 },
+        color: { value: "#ffffff" },
+        line_linked: {
+          enable: true,
+          distance: 150,
+          color: "#ffffff",
+          opacity: 0.4,
+          width: 1
+        },
+        move: { speed: 1 }
+      },
+      interactivity: {
+        events: {
+          onhover: { enable: true, mode: "repulse" }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
