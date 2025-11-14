@@ -1,77 +1,15 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Me</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-</head>
-<body>
-  <div id="particles-js"></div>
-  <header>
-    <h1>Contact Me</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="contact-section">
-      <div class="contact-info">
-        <h2>Send me a message!</h2>
-        <p><strong>Location</strong><br>📍 London, Ontario, Canada</p>
-        <p><strong>Email</strong><br>📧 <a href="mailto:roca.marcusethan@gmail.com">roca.marcusethan@gmail.com</a></p>
-        <p><strong>Phone</strong><br>📞 <a href="tel:+15488814930">(548) 881-4930</a></p>
-      </div>
-      <div class="contact-form">
-        <form>
-          <label for="name">Name</label>
-          <input type="text" id="name" placeholder="Your Name" required>
-
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="Your Email" required>
-
-          <label for="message">Message</label>
-          <textarea id="message" placeholder="Your Message" required></textarea>
-
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Your Name</p>
-  </footer>
-
-  <script>
-    particlesJS("particles-js", {
-      particles: {
-        number: { value: 100 },
-        size: { value: 2 },
-        color: { value: "#ffffff" },
-        line_linked: {
-          enable: true,
-          distance: 150,
-          color: "#ffffff",
-          opacity: 0.4,
-          width: 1
-        },
-        move: { speed: 1 }
-      },
-      interactivity: {
-        events: {
-          onhover: { enable: true, mode: "repulse" }
-        }
-      }
-    });
-  </script>
-</body>
-</html>
+<main class="container">
+  <section id="contact">
+    <h1>Contact</h1>
+    <p>
+      I am open to co-op, internship, and entry-level opportunities in software development, data,
+      and related fields. Please feel free to reach out using the details below.
+    </p>
+    <ul class="contact-list">
+      <li><strong>Email:</strong> <a href="mailto:m_roca@fanshaweonline.ca">m_roca@fanshaweonline.ca</a></li>
+      <li><strong>Phone:</strong> (548) 881-4930</li>
+      <li><strong>LinkedIn:</strong> <a href="YOUR_LINKEDIN_URL" target="_blank">View my LinkedIn profile</a></li>
+      <li><strong>GitHub:</strong> <a href="YOUR_GITHUB_URL" target="_blank">View my GitHub repositories</a></li>
+    </ul>
+  </section>
+</main>
